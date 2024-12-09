@@ -1,0 +1,85 @@
+Starting Dynare (version 6.2).
+Calling Dynare with arguments: none
+Starting preprocessing of the model file ... 
+Found 34 equation(s). 
+Evaluating expressions... 
+Computing static model derivatives (order 1). 
+Normalizing the static model... 
+Finding the optimal block decomposition of the static model... 
+9 block(s) found: 
+  8 recursive block(s) and 1 simultaneous block(s). 
+  the largest simultaneous block has 15 equation(s) 
+                                 and 15 feedback variable(s). 
+Computing dynamic model derivatives (order 1). 
+Normalizing the dynamic model... 
+Finding the optimal block decomposition of the dynamic model... 
+6 block(s) found: 
+  5 recursive block(s) and 1 simultaneous block(s). 
+  the largest simultaneous block has 19 equation(s) 
+                                 and 17 feedback variable(s). 
+Preprocessing completed. 
+Preprocessing time: 0h00m00s.
+
+STEADY-STATE RESULTS:
+
+c      		 0.594036
+rk     		 0.035101
+rr     		 1.0101
+w      		 1.675
+h      		 0.333333
+k      		 7.83453
+q      		 1
+i      		 0.195863
+lambda 		 3.17592
+r      		 1.0101
+pi     		 1
+mc     		 0.833333
+g      		 0.2
+a      		 1.05839
+piH    		 1
+s      		 1
+pH     		 1
+yH     		 1
+d      		 1
+gdp    		 1
+De     		 1
+yz     		 1
+rz     		 1.0101
+tb     		 0.010101
+xp     		 0.010101
+mp     		 0
+tot    		 1
+clog   		 -0.520816
+wlog   		 0.515813
+hlog   		 -1.09861
+klog   		 2.05854
+ilog   		 -1.63034
+dlog   		 -1.38629
+proof  		 0
+
+EIGENVALUES:
+         Modulus             Real        Imaginary
+               0                0                0
+               0                0                0
+       8.873e-17       -8.873e-17                0
+       1.654e-16        1.654e-16                0
+             0.9              0.9                0
+             0.9              0.9                0
+             0.9              0.9                0
+             0.9              0.9                0
+          0.9807           0.9807                0
+          0.9995           0.9995                0
+           1.011            1.011                0
+           1.038            1.038                0
+           1.103            1.103                0
+           4.404            4.404                0
+       1.075e+21       -1.075e+21                0
+             Inf             -Inf                0
+             Inf              Inf                0
+             Inf              Inf                0
+             Inf              Inf                0
+
+There are 9 eigenvalue(s) larger than 1 in modulus for 9 forward-looking variable(s)
+The rank condition is verified.
+
+Total computing time : 0h00m10s
